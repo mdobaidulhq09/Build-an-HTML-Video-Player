@@ -20,6 +20,20 @@ This implementation uses a **fallback hierarchy**. By providing multiple file fo
 
 ---
 
+
+## 🔹 Why Multiple `<source>` Tags Matter
+
+Different browsers support different video formats. For example:
+
+| Browser | Recommended Video Formats        |
+|---------|---------------------------------|
+| Chrome  | MP4, WebM                        |
+| Firefox | WebM, OGG                        |
+| Safari  | MP4, MOV                         |
+| Edge    | MP4, WebM                        |
+
+By providing multiple formats, you ensure:
+
 ## 🛠️ Technical Implementation & Structure
 
 ```html
